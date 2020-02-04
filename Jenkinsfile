@@ -1,8 +1,7 @@
 pipeline {
   agent any
 tools {
-nodejs 'nodejs10'
-docker 'Docker'
+nodejs "nodejs10"
 }
   stages {
     stage('Installing dependencies') {
